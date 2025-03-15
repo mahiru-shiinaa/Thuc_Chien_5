@@ -16,6 +16,53 @@ Button
 .button-two:hover {
     background-color: var(--color-one);
 }
+
+.button-three {
+    position: relative;
+    background-color: #1e1e1e;
+    color: #fff ;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: none;
+    border-radius: 5px;
+    padding: 12px 30px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button-three:hover {
+    background-color: var(--color-one);
+}
+
+.button-three.active {
+    background-color: var(--color-one);
+}
+
+.button-four {
+    padding: 15px 30px;
+    padding-left: 60px;
+    border-radius: 30px;
+}
+
+.button-four:hover {
+    color: var(--color-one);
+}
+
+.button-four i {
+    background-color: #f35525;
+    display: inline-block;
+    width: 50px;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #fff !important;
+ }
 /* ---------------------------------------------
 End Button
 --------------------------------------------- */
@@ -535,6 +582,108 @@ Counter
 /* ---------------------------------------------
 End Counter
 --------------------------------------------- */
+
+
+/* ---------------------------------------------
+Best Detail
+--------------------------------------------- */
+.best-deal .inner-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.best-deal .property-details {
+    padding: 0;
+}
+
+.button-group .button-three:not(:last-child){
+    margin-right: 20px;
+}
+
+.best-deal .inner-desc {
+    color: var(--color-one);
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.best-deal .inner-title h2 {
+    color: #000;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.best-deal .property-details {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.best-deal .property-details li:not(:last-child) {
+    
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.best-deal .property-details li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999;
+}
+
+.best-deal .property-details li strong {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.best-deal .inner-image {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+}
+.best-deal .inner-image img {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.best-deal .inner-content h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.best-deal .inner-content #detail-desc-1, 
+.best-deal .inner-content #detail-desc-2 {
+    font-size: 14px;
+    color: #777;
+    line-height: 2;
+}
+.best-deal .inner-content #detail-desc-2 {
+    margin-bottom: 45px;
+}
+
+
+
+
+
+/* ---------------------------------------------
+End Best Detail
+--------------------------------------------- */
+
+
+
 
 
 /* ---------------------------------------------
