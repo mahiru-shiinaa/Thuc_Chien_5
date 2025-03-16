@@ -772,13 +772,13 @@ Properties
     margin: 10px 0;
 }
 /* Mặc định ẩn */
-.properties .item-check {
+/* .properties .item-check {
     display: none; 
-}
+} */
 /* Khi có class 'show' thì hiển thị */
-.properties .item-check.show {
+/* .properties .item-check.show {
     display: block; 
-}
+} */
 
 
 
