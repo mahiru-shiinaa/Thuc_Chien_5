@@ -703,6 +703,7 @@ Properties
     margin-bottom: 30px;
     background-color: #fafafa;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
 
 .properties .inner-item .inner-image {
@@ -770,6 +771,17 @@ Properties
     text-align: center;
     margin: 10px 0;
 }
+/* Mặc định ẩn */
+.properties .item-check {
+    display: none; 
+}
+/* Khi có class 'show' thì hiển thị */
+.properties .item-check.show {
+    display: block; 
+}
+
+
+
 
 /* ---------------------------------------------
 End Properties
